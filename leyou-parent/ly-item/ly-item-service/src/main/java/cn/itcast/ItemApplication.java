@@ -1,0 +1,18 @@
+package cn.itcast;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+/**
+ * @Author dhp
+ * @Date 2020/6/2 23:31
+ * @Version 1.0
+ */
+@SpringBootApplication
+@EnableDiscoveryClient
+public class ItemApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ItemApplication.class);
+    }
+}
