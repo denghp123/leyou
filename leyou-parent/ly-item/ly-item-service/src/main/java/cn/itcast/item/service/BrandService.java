@@ -4,7 +4,7 @@ import cn.itcast.common.enums.ExceptionEnum;
 import cn.itcast.common.exceptions.LyException;
 import cn.itcast.common.vo.PageResult;
 import cn.itcast.item.mapper.BrandMapper;
-import cn.itcast.pojo.Brands;
+import cn.itcast.pojo.Brand;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;
@@ -27,22 +27,23 @@ public class BrandService {
     private BrandMapper brandMapper;
 
 
-    public PageResult<Brands> queryBrandForPage(boolean desc, Integer page, int rows, String sortBy, String key) {
+    public PageResult<Brand> queryBrandForPage(boolean desc, Integer page, int rows, String sortBy, String key) {
         //分页
         PageHelper.startPage(page,rows);
         //过滤查询
-        Example example = new Example(Brands.class);
+        Example example = new Example(Brand.class);
         if (StringUtils.isNotBlank(key)){
-            example.createCriteria().orLike("name","%"+key+"%").orEqualTo(key,key.toUpperCase());
+            example.createCriteria().orLike("name","%"+key+"%").orEqualTo("letter",key.toUpperCase());
         }
 
         //排序
         if (StringUtils.isNotBlank(sortBy)){
-            String orderByClause = desc ? "desc" : "asc" ;
+            String orderByClause = sortBy + (desc ? " DESC" : " ASC");
+
             example.setOrderByClause(orderByClause);
         }
 
-        List<Brands> brandsList = brandMapper.selectByExample(example);
+        List<Brand> brandsList = brandMapper.selectByExample(example);
         //强壮性判断
 
         if (CollectionUtils.isEmpty(brandsList)){
@@ -51,7 +52,7 @@ public class BrandService {
 
         //解析分页结果
 
-        PageInfo<Brands> brandsPageInfo = new PageInfo<>(brandsList);
+        PageInfo<Brand> brandsPageInfo = new PageInfo<>(brandsList);
 
         //封装返回
 

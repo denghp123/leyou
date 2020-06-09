@@ -2,7 +2,7 @@ package cn.itcast.item.web;
 
 import cn.itcast.common.vo.PageResult;
 import cn.itcast.item.service.BrandService;
-import cn.itcast.pojo.Brands;
+import cn.itcast.pojo.Brand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -29,12 +29,13 @@ public class BrandController {
      * @return
      */
     @GetMapping("page")
-    public ResponseEntity<PageResult<Brands>>  queryBrandsForPage(
+    public ResponseEntity<PageResult<Brand>>  queryBrandsForPage(
             @RequestParam(value = "desc",defaultValue = "false") boolean desc,
             @RequestParam(value = "page",defaultValue = "1") Integer page,
             @RequestParam(value = "rows",defaultValue = "5")  Integer rows,
             @RequestParam(value = "sortBy",required = false) String sortBy,
             @RequestParam(value = "key" ,required = false) String key
+
     ){
 
 

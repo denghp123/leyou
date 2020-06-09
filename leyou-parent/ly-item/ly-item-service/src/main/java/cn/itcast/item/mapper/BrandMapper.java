@@ -1,6 +1,6 @@
 package cn.itcast.item.mapper;
 
-import cn.itcast.pojo.Brands;
+import cn.itcast.pojo.Brand;
 import tk.mybatis.mapper.common.Mapper;
 
 /**
@@ -8,5 +8,5 @@ import tk.mybatis.mapper.common.Mapper;
  * @Date 2020/6/9 11:22
  * @Version 1.0
  */
-public interface BrandMapper extends Mapper<Brands> {
+public interface BrandMapper extends Mapper<Brand> {
 }
