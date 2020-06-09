@@ -12,5 +12,13 @@
     <groupId>cn.itcast.service</groupId>
     <artifactId>ly-item-pojo</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-core</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

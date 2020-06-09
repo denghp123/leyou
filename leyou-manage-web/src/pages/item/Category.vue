@@ -21,9 +21,9 @@
       }
     },
     methods: {
-      handleAdd(node) {
+      handleAdd(n) {
         console.log("add .... ");
-        console.log(node);
+        console.log(n);
       },
       handleEdit(id, name) {
         console.log("edit... id: " + id + ", name: " + name)

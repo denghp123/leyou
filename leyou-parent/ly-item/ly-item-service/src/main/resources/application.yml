@@ -4,7 +4,7 @@ spring:
   application:
     name: item-service
   datasource:
-    url: jdbc:mysql://localhost:3306/heima58
+    url: jdbc:mysql://localhost:3306/ly
     username: root
     password: root
 eureka:
@@ -16,3 +16,5 @@ eureka:
     ip-address: 127.0.0.1
 mybatis:
   type-aliases-package: cn.itcast.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
