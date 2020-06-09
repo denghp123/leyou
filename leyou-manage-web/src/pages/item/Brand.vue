@@ -100,7 +100,7 @@
     methods: {
       getDataFromServer() { // 从服务的加载数的方法。
         // 发起请求
-        this.$http.get("/item/brand/page", {
+        this.$http.get("/item/brands/page", {
           params: {
             key: this.search, // 搜索条件
             page: this.pagination.page,// 当前页

@@ -32,4 +32,12 @@ public class CategoryService {
 
         return result;
     }
+
+    public List<Category> selectCategoryByPid(Long pid) {
+        if (pid ==null){
+            throw  new LyException(ExceptionEnum.CATEGORY_NOT_FOUND);
+        }
+
+       return categoryMapper.selectCategoryByPid(pid);
+    }
 }

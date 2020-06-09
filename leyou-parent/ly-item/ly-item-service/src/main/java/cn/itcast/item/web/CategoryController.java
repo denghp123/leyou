@@ -4,10 +4,7 @@ import cn.itcast.item.service.CategoryService;
 import cn.itcast.pojo.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -36,4 +33,15 @@ public class CategoryController {
 
         return ResponseEntity.ok(categoryService.selectCategoryByParentId(pid));
     }
+
+    /**
+     * 根据品牌id查询商品分类信息
+     * @param pid
+     * @return
+     */
+    @GetMapping("/bid/{pid}")
+    public ResponseEntity<List<Category>> selectCategoryByPid(@PathVariable("pid")Long pid){
+        return ResponseEntity.ok(categoryService.selectCategoryByPid(pid));
+    }
+
 }
