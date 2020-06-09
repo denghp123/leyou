@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62370984-8edf-4585-b03c-395a0b210897" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/CategoryBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/Brand.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="296">
               <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,14 +83,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/CategoryMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="363">
               <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-123">
+              <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -141,15 +184,15 @@
         <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/vo/pageResult.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/Brand.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/Brands.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java" />
-        <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java" />
         <option value="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/CategoryBrand.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java" />
       </list>
     </option>
   </component>
@@ -196,7 +239,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="200" />
     <option name="y" value="30" />
     <option name="width" value="1400" />
@@ -476,7 +519,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591698192876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591719274776" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cloud-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -558,12 +601,12 @@
       <workItem from="1591165254082" duration="8658000" />
       <workItem from="1591234967533" duration="5966000" />
       <workItem from="1591322895240" duration="7420000" />
-      <workItem from="1591539028032" duration="22425000" />
+      <workItem from="1591539028032" duration="25128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53502000" />
+    <option name="totallyTimeSpent" value="56205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,6 +619,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.18176973" />
@@ -595,12 +639,12 @@
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.073027715" side_tool="true" visible="true" weight="0.5542299" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.073027715" side_tool="true" visible="true" weight="0.48264644" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.92697227" visible="true" weight="0.5542299" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.92697227" visible="true" weight="0.48264644" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -837,13 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -879,36 +916,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#380#381#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,16 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -973,8 +970,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/CategoryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="363">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

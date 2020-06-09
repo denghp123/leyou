@@ -10,6 +10,7 @@ import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import tk.mybatis.mapper.entity.Example;
 
@@ -57,5 +58,28 @@ public class BrandService {
         //封装返回
 
         return new PageResult<>(brandsPageInfo.getTotal(),brandsList);
+    }
+
+
+    @Transactional
+    public void addBrand(Brand brand, List<Long> cids) {
+
+        //新增品牌
+        int count = brandMapper.insertSelective(brand);
+        if (count != 1){
+            throw new LyException(ExceptionEnum.BRANDS_INSERT_ERROR);
+        }
+
+
+        for (Long cid : cids) {
+            count =brandMapper.insertCategory(cid,brand.getId());
+
+            if (count != 1){
+                throw new LyException(ExceptionEnum.BRANDS_INSERT_ERROR);
+            }
+
+        }
+
+
     }
 }

@@ -4,8 +4,12 @@ import cn.itcast.common.vo.PageResult;
 import cn.itcast.item.service.BrandService;
 import cn.itcast.pojo.Brand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import sun.util.resources.ga.LocaleNames_ga;
+
+import java.util.List;
 
 /**
  * @Author dhp
@@ -20,7 +24,7 @@ public class BrandController {
     private BrandService brandService;
 
     /**
-     * 品牌分类查询接口
+     * 品牌分页查询接口
      * @param desc  升序/降序
      * @param page 当前页
      * @param rows  每页大小
@@ -41,5 +45,18 @@ public class BrandController {
 
 
     return ResponseEntity.ok(brandService.queryBrandForPage(desc,page,rows,sortBy,key));
+    }
+
+    /**
+     * 品牌新增
+     * @param brand
+     * @param cids
+     * @return
+     */
+    @PostMapping("addBrand")
+    public ResponseEntity<Void> addBrand(Brand brand, @RequestParam("cids")List<Long> cids){
+        brandService.addBrand(brand,cids);
+       return ResponseEntity.status(HttpStatus.CREATED).build();
+
     }
 }
