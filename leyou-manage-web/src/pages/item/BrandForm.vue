@@ -14,7 +14,7 @@
       </v-flex>
       <v-flex>
         <v-upload
-          v-model="brand.image" url="/upload/image" :multiple="false" :pic-width="250" :pic-height="90"
+          v-model="brand.image" url="/file/upload/image" :multiple="false" :pic-width="250" :pic-height="90"
         />
       </v-flex>
     </v-layout>
@@ -76,7 +76,7 @@
           }).then(() => {
             // 关闭窗口
             this.$emit("close");
-            this.$message.success("保存成功！");
+            this.$message.success( this.isEdit ?"编辑修改成功！":"保存成功！");
           })
             .catch(() => {
               this.$message.error("保存失败！");

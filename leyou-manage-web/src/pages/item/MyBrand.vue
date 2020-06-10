@@ -2,7 +2,7 @@
   <div>
     <v-layout class="px-2 pb-2">
       <v-flex>
-        <v-btn color="blue" >新增品牌</v-btn>
+        <v-btn color="blue" @click="addBrand">新增品牌</v-btn>
       </v-flex>
       <v-flex class="xs4">
         <v-text-field label="搜索" v-model="search" append-icon="search" hide-details/>
@@ -77,6 +77,9 @@
         }
       },
       methods:{
+        addBrand(){
+
+        },
         getBrands() {
           this.loading= true;
           this.$http.get("/item/brands/page", {
