@@ -86,7 +86,7 @@ public class BrandService {
 
             }
     }
-    
+
     @Transactional
     public void updateBrand(Brand brand, List<Long> cids) {
         //修改品牌
@@ -137,6 +137,24 @@ public class BrandService {
         }
 
 
+    }
+
+    @Transactional
+    public void deleteBrandById(Long bid) {
+
+        //品牌数据删除
+        int count = brandMapper.deleteByPrimaryKey(bid);
+
+        if (count != 1){
+            throw new LyException(ExceptionEnum.BRANDS_DELETE_ERROR);
+        }
+        //删除旧的品牌关联的商品分类
+        CategoryBrand categoryBrand = new CategoryBrand();
+        categoryBrand.setBrandId(bid);
+        int dcount = brandCategoryMapper.delete(categoryBrand);
+        if (dcount == 0){
+            throw new LyException(ExceptionEnum.BRANDS_DELETE_ERROR);
+        }
 
 
     }

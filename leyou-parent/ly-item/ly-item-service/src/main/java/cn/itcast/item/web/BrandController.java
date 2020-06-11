@@ -61,11 +61,27 @@ public class BrandController {
     }
 
 
-
+    /**
+     * 品牌编辑修改
+     * @param brand
+     * @param cids
+     * @return
+     */
     @PutMapping("addBrand")
     public ResponseEntity<Void> updateBrand(Brand brand, @RequestParam("cids")List<Long> cids){
         brandService.updateBrand(brand,cids);
         return ResponseEntity.status(HttpStatus.CREATED).build();
 
     }
+
+    /**
+     * 根据id删除品牌
+     * @param bid
+     * @return
+     */
+     @GetMapping("/delete/{bid}")
+    public ResponseEntity<Void> deleteBrandById(@PathVariable("bid")Long bid){
+         brandService.deleteBrandById(bid);
+         return ResponseEntity.status(HttpStatus.CREATED).build();
+     }
 }

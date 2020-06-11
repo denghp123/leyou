@@ -2,6 +2,7 @@ package cn.itcast.service;
 
 import cn.itcast.common.enums.ExceptionEnum;
 import cn.itcast.common.exceptions.LyException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -20,11 +21,36 @@ import java.util.List;
  */
 
 @Service
+@Slf4j
 public class UploadService {
     //支持的文件类型
     private static final List<String> suffixes = Arrays.asList("image/png", "image/jpeg","image/jpg");
 
     public String uploadFile(MultipartFile file) {
+
+
+//        try {
+//            //获取文件名称
+//            String filename = file.getOriginalFilename();
+//
+//            //文件的存储路径
+//            File destfile = new File("D:\\sofiware\\nginx-1.8.0\\html\\", filename);
+//            //文件存储
+//            file.transferTo(destfile);
+//            //返回图片的地址
+//
+//            String url ="http://image.leyou.com/"+filename;
+//            return url;
+//        } catch (Exception e) {
+//            log.error("【上传微服务】文件上传失败",e);
+//            throw new LyException(ExceptionEnum.FILE_UPLOAD_ERROR);
+//
+//
+//        }
+
+
+
+
 
         try {
             // 1、图片信息校验
@@ -40,6 +66,8 @@ public class UploadService {
                 throw new LyException(ExceptionEnum.INVALID_FILE_TYPE);
             }
 
+
+
             // 2、保存图片
             // 2.1、生成保存目录,保存到nginx所在目录的html下，这样可以直接通过nginx来访问到
             File dir = new File("D:\\sofiware\\nginx-1.8.0\\html\\");
@@ -53,8 +81,12 @@ public class UploadService {
             String url = "http://image.leyou.com/" + file.getOriginalFilename();
             return url;
         } catch (IOException e) {
+            log.error("【上传微服务】文件上传失败",e);
             throw new LyException(ExceptionEnum.INVALID_FILE_TYPE);
         }
+
+
+
 
     }
 }

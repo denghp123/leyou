@@ -58,6 +58,8 @@
   // 导入自定义的表单组件
   import BrandForm from './BrandForm'
 
+   import message from '../../components/messages/index'
+
   export default {
     name: "brand",
     data() {
@@ -124,6 +126,21 @@
         // 把oldBrand变为null
         this.oldBrand = null;
       },
+      deleteBrand(oldBrand){
+      //根据品牌id删除品牌数据
+      // 为给定 ID 的 user 创建请求
+    this.$http.get("/item/brands/delete/" + oldBrand.id)
+    .then(function (response) {
+      
+     
+    console.log(response);
+   })
+  .catch(function (error) {
+    
+    console.log(error);
+  });
+      }
+      ,
       editBrand(oldBrand){
         // 根据品牌信息查询商品分类
         this.$http.get("/item/category/bid/" + oldBrand.id)
