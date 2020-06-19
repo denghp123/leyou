@@ -111,6 +111,9 @@ export default {
                     this.loadData();
                 })
           })
+          .catch(() => {
+              this.$message.error("删除失败！");
+            });
       },
       selectGroup(group){
           this.$emit("select", group);

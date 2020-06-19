@@ -28,14 +28,17 @@
       </v-flex>
     </v-toolbar>
     <v-divider/>
-    <v-data-table
-      :headers="headers"
-      :items="goodsList"
-      :pagination.sync="pagination"
-      :total-items="totalGoods"
-      :loading="loading"
-      class="elevation-1"
-    >
+    
+
+     <v-data-table
+        :headers="headers"
+        :items="goodsList"
+        :options.sync="options"
+        :server-items-length="totalGoods"
+        :loading="loading"
+        class="elevation-1"
+      ></v-data-table>
+
       <template slot="items" slot-scope="props">
         <td class="text-xs-center">{{ props.item.id }}</td>
         <td class="text-xs-center">{{ props.item.title }}</td>
@@ -52,6 +55,9 @@
           <v-btn icon v-else>上架</v-btn>
         </td>
       </template>
+      
+  
+
     </v-data-table>
     <!--弹出的对话框-->
     <v-dialog max-width="800" v-model="show" persistent scrollable>
@@ -77,13 +83,19 @@
           </v-flex>
         </v-card-actions>
       </v-card>
+      
     </v-dialog>
   </v-card>
+  
 </template>
 
 <script>
   // 导入自定义的表单组件
   import GoodsForm from './GoodsForm'
+
+  
+
+
 
   export default {
     name: "goods",
@@ -96,7 +108,7 @@
         totalGoods: 0, // 总条数
         goodsList: [], // 当前页品牌数据
         loading: true, // 是否在加载中
-        pagination: {}, // 分页信息
+       options: {},
         headers: [
           {text: 'id', align: 'center', sortable: false, value: 'id'},
           {text: '标题', align: 'center', sortable: false, value: 'title'},

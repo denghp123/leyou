@@ -149,6 +149,7 @@ export default {
           searching:false,
           generic:false}
       this.show = true;
+      this.isEdit = false;
     },
     deleteParam(id) {
         this.$message.confirm("确认要删除该参数吗？")
@@ -156,6 +157,7 @@ export default {
             this.$http.delete("/item/spec/param/" + id)
             .then(() => {
                 this.$message.success("删除成功");
+                this.loadData();
             })
             .catch(() => {
                 this.$message.error("删除失败");

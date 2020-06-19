@@ -2,13 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62370984-8edf-4585-b03c-395a0b210897" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/Brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/Brand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastDFS-demo/fastDFS-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastDFS-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastDFS-demo/src/main/java/cn/itcast/FastDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastDFS-demo/src/main/resources/fastDFS_clent.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload/file-upload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload/src/test/java/cn/itcast/test/FastDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-common/ly-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-gateway/ly-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-pojo/ly-item-pojo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpecGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpecParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/Spu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpuDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/ly-item-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecParamsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/SpecGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/SpecParamsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/SpecGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/SpecParamsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-item/ly-item.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly-registry/ly-registry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/Goods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/Goods.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/specification/SpecGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/specification/SpecGroup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/specification/SpecParam.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/specification/SpecParam.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/service/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/service/UploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-upload/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/file-upload/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-common/target/classes/cn/itcast/common/enums/ExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ly-common/target/classes/cn/itcast/common/enums/ExceptionEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-pojo/target/ly-item-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-pojo/target/ly-item-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +47,15 @@
     <ignored path="$PROJECT_DIR$/ly-item/ly-item-service/target/" />
     <ignored path="$PROJECT_DIR$/ly-common/target/" />
     <ignored path="$PROJECT_DIR$/file-upload/target/" />
+    <ignored path="$PROJECT_DIR$/fastDFS-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="leyou-parent" />
@@ -31,88 +63,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/service/UploadService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="84" column="67" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file-upload/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
-              <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="148" column="49" selection-start-line="148" selection-start-column="49" selection-end-line="148" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/CategoryBrand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandCategoryMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java">
+        <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpecParam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,10 +84,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/web/UploudController.java">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecParamsMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+            <state relative-caret-position="243">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/SpecParamsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1674">
+              <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecGroupMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/SpecParamsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1701">
+              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +146,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="729">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/Spu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpuDetail.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,10 +174,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fastDFS.client.version</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -157,19 +190,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ly-registry/src/main/java/cn/itcast/RegisterApplication.java" />
-        <option value="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ly-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/ly-gateway/src/main/java/cn/itcast/GatewayApplication.java" />
-        <option value="$PROJECT_DIR$/ly-item/pom.xml" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/web/HelloController.java" />
-        <option value="$PROJECT_DIR$/ly-registry/pom.xml" />
         <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/units/CookieUtils.java" />
         <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/units/JsonUtils.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/Item.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" />
         <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/exceptions/LyException.java" />
         <option value="$PROJECT_DIR$/ly-common/pom.xml" />
         <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/vo/ExceptionResult.java" />
@@ -188,18 +212,35 @@
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/file-upload/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/UploadApplication.java" />
         <option value="$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/web/UploudController.java" />
-        <option value="$PROJECT_DIR$/file-upload/pom.xml" />
         <option value="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/CategoryBrand.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/BrandCategoryMapper.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java" />
         <option value="$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/fastDFS-demo/src/main/resources/fastDFS_clent.conf" />
+        <option value="$PROJECT_DIR$/fastDFS-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/fastDFS-demo/src/main/java/cn/itcast/FastDFS.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/file-upload/src/test/java/cn/itcast/test/FastDFS.java" />
+        <option value="$PROJECT_DIR$/file-upload/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpecGroup.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecGroupMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpecParam.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecParams.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecParamsMapper.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/SpecGroupService.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/SpecGroupController.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/SpecParamsController.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/SpecParamsService.java" />
+        <option value="$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/Spu.java" />
+        <option value="$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpuDetail.java" />
       </list>
     </option>
   </component>
@@ -231,7 +272,12 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ly-item-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="leyou-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -261,6 +307,32 @@
             <path>
               <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFS-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFS-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFS-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fastDFS-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou-parent" type="462c0819:PsiDirectoryNode" />
               <item name="file-upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,31 +364,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="file-upload" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="file-upload" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -480,8 +527,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,14 +538,15 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591805822444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592450157854" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vue-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -522,9 +570,54 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.27897495" />
+    <option name="contentProportion" value="0.17291911" />
   </component>
-  <component name="RunManager" selected="Spring Boot.RegisterApplication">
+  <component name="RunManager" selected="JUnit.FastDFS.testUpload">
+    <configuration name="FastDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.FastDFS" />
+      <module name="fastDFS-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastDFS.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="file-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.test.FastDFS" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastDFS.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="file-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.test.FastDFS" />
+      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.GatewayApplication" />
@@ -562,6 +655,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RegisterApplication" />
+        <item itemvalue="JUnit.FastDFS.testUpload" />
+        <item itemvalue="JUnit.FastDFS.testUploadAndCreateThumb" />
+        <item itemvalue="Application.FastDFS" />
       </list>
     </recent_temporary>
   </component>
@@ -581,12 +677,49 @@
       <workItem from="1591234967533" duration="5966000" />
       <workItem from="1591322895240" duration="7420000" />
       <workItem from="1591539028032" duration="50661000" />
-      <workItem from="1591838588589" duration="675000" />
+      <workItem from="1591838588589" duration="1456000" />
+      <workItem from="1591892075637" duration="4325000" />
+      <workItem from="1592186088998" duration="4800000" />
+      <workItem from="1592231984458" duration="27232000" />
+      <workItem from="1592450196232" duration="4041000" />
+      <workItem from="1592531722457" duration="739000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FastDFS_testUpload - 2020.06.15 at 22h 57m 45s.xml">
+      <configuration name="FastDFS.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUpload - 2020.06.15 at 22h 59m 32s.xml">
+      <configuration name="FastDFS.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUploadAndCreateThumb - 2020.06.15 at 23h 00m 47s.xml">
+      <configuration name="FastDFS.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUpload - 2020.06.15 at 23h 04m 47s.xml">
+      <configuration name="FastDFS.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUploadAndCreateThumb - 2020.06.15 at 23h 19m 08s.xml">
+      <configuration name="FastDFS.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUpload - 2020.06.15 at 23h 24m 07s.xml">
+      <configuration name="FastDFS.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUpload - 2020.06.16 at 11h 38m 15s.xml">
+      <configuration name="FastDFS.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUpload - 2020.06.16 at 12h 53m 28s.xml">
+      <configuration name="FastDFS.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUpload - 2020.06.16 at 14h 16m 51s.xml">
+      <configuration name="FastDFS.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FastDFS_testUpload - 2020.06.16 at 21h 33m 42s.xml">
+      <configuration name="FastDFS.testUpload" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82413000" />
+    <option name="totallyTimeSpent" value="124331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,9 +732,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.18763326" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.18176973" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -611,24 +743,24 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9301706" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9264392" weight="0.4175705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.329718" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.07356077" side_tool="true" visible="true" weight="0.30585682" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.077292114" side_tool="true" visible="true" weight="0.5010846" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.9264392" visible="true" weight="0.30585682" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.9227079" visible="true" weight="0.5010846" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.08422175" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.22654584" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -641,121 +773,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly-registry/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/web/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/units.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-registry/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/units/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/units/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2764">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/http/HttpEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/http/HttpStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/exceptions/LyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/vo/ExceptionResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/advice/BasicExceptionHander.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -897,59 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/UploadApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file-upload/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -958,13 +922,6 @@
             <element signature="e#4957#4958#0" expanded="true" />
             <element signature="e#4993#4994#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -978,37 +935,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/service/UploadService.java">
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="84" column="67" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="67" />
+        <state relative-caret-position="3537">
+          <caret line="148" column="69" selection-start-line="148" selection-start-column="69" selection-end-line="148" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file-upload/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fastDFS-demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="432">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/fastDFS-demo/src/main/java/cn/itcast/FastDFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="513">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -1042,10 +989,214 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fastDFS-demo/src/main/resources/fastDFS_clent.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/ly-common.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-upload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-upload/file-upload.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-upload/src/test/java/cn/itcast/test/FastDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/UploadApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/web/UploudController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="289">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-upload/src/main/java/cn/itcast/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-upload/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/SpecGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/SpecGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpecGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpecParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecParamsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/SpecParamsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/mapper/SpecGroupMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/SpecParamsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/web/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1054,20 +1205,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/cn/itcast/common/enums/ExceptionEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="729">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/cn/itcast/item/service/BrandService.java">
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/Spu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="148" column="49" selection-start-line="148" selection-start-column="49" selection-end-line="148" selection-end-column="49" />
+        <state relative-caret-position="486">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-item/ly-item-pojo/src/main/java/cn/itcast/pojo/SpuDetail.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

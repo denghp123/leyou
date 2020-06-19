@@ -18,7 +18,16 @@ public enum  ExceptionEnum {
     FILE_UPLOAD_ERROR(500,"文件上传失败！"),
     BRANDS_UPDATE_ERROR(400,"品牌修改失败！"),
     BRANDS_DELETE_ERROR(400,"品牌删除失败！"),
+    SPEC_GROUP_NOT_FOUND(404,"商品规格不存在！"),
+    SPEC_PARAMS_NOT_FOUND(404,"商品规格参数不存在！"),
+    ADD_SPEC_PARAMS(400,"商品规格参数错数，新增失败！"),
+    UPDATE_SPEC_PARAMS(400,"商品规格参数错数，编辑修改失败！"),
+    ADD_SPEC_GROUP(400,"商品规格分组参数有误，新增分组失败！"),
+    UPDATE_SPEC_GROUP(400,"商品规格分组参数有误，编辑失败！"),
+    DELETE_SPEC_GROUP(500,"服务器内部错误，删除失败！"),
+    DELETE_SPEC_PARAMS(500,"服务器内部错误，删除失败！"),
    BRANDS_INSERT_ERROR(400,"品牌参数有误，新增失败！"),;
+
 
 
     private int status;
