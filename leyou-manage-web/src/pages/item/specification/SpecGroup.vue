@@ -42,6 +42,7 @@
 </template>
 
 <script>
+ import m from '../../../components/messages/index'
 export default {
   name: "spec-group",
   props: {

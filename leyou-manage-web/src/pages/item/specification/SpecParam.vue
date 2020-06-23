@@ -178,7 +178,7 @@ export default {
         }).then(() => {
             // 关闭窗口
             this.show = false;
-            this.$message.success("保存成功！");
+            this.$message.success("保存成功,hahh！");
             this.loadData();
           }).catch(() => {
               this.$message.error("保存失败！");

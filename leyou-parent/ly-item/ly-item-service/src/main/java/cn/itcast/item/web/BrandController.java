@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import sun.util.resources.ga.LocaleNames_ga;
 
 import java.util.List;
 
@@ -83,5 +82,16 @@ public class BrandController {
     public ResponseEntity<Void> deleteBrandById(@PathVariable("bid")Long bid){
          brandService.deleteBrandById(bid);
          return ResponseEntity.status(HttpStatus.CREATED).build();
+     }
+
+
+    /**
+     * 根据分类查询分类下的品牌信息
+     * @param cid
+     * @return
+     */
+     @GetMapping("/cid/{cid}")
+     public ResponseEntity<List<Brand>> queryBrandByCid(@PathVariable("cid")Long cid){
+         return ResponseEntity.ok(brandService.queryBrandByCid(cid));
      }
 }

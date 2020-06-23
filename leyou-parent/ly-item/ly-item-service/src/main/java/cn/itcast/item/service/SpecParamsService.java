@@ -25,10 +25,11 @@ public class SpecParamsService {
     private SpecParamsMapper specParamsMapper;
 
 
-    public List<SpecParam> selectSpecParamsByGid(Long gid){
+    public List<SpecParam> selectSpecParams(Long gid,Long cid,Boolean searching){
         SpecParam specParam = new SpecParam();
         specParam.setGroupId(gid);
-
+        specParam.setCid(cid);
+        specParam.setSearching(searching);
         List<SpecParam> specParams = specParamsMapper.select(specParam);
         if (CollectionUtils.isEmpty(specParams)){
             throw new LyException(ExceptionEnum.SPEC_PARAMS_NOT_FOUND);

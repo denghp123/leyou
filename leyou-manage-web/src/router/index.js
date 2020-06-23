@@ -28,6 +28,7 @@ export default new Router({
         //三个参数含义 url地址  页面路径 页面名称
         route("/item/myBrand",'/item/MyBrand',"MyBrand"),
         route("/item/list",'/item/Goods',"Goods"),
+        route("/item/Mylist",'/item/MyGoods',"MyGoods"),
         route("/item/specification",'/item/specification/Specification',"Specification"),
         route("/user/statistics",'/item/Statistics',"Statistics"),
         route("/trade/promotion",'/trade/Promotion',"Promotion")

@@ -22,14 +22,14 @@
     },
     methods: {
       handleAdd(n) {
-        console.log("add .... ");
+        console.log("add随便玩 .... ");
         console.log(n);
       },
       handleEdit(id, name) {
         console.log("edit... id: " + id + ", name: " + name)
       },
       handleDelete(id) {
-        console.log("delete ... " + id)
+        console.log("delete 删除文件... " + id)
       },
       handleClick(node) {
         console.log(node)

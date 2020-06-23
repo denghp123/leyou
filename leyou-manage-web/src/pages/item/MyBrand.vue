@@ -17,9 +17,6 @@
         :loading="loading"
         class="elevation-1"
       >
-
-
-      
         <template slot="items" slot-scope="props">
           <tr>
             <td class="text-xs-center">{{ props.item.id }}</td>

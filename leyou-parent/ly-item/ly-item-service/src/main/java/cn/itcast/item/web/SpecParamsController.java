@@ -23,17 +23,20 @@ public class SpecParamsController {
     private SpecParamsService specParamsService;
 
     /**
-     * 根据规格查询规格参数
+     * 根据条件查询规格参数
      * @param gid
      * @return
      */
     @GetMapping("params")
-    public ResponseEntity<List<SpecParam>> selectSpecParamByGid(@RequestParam("gid")Long gid){
-        return ResponseEntity.ok(specParamsService.selectSpecParamsByGid(gid));
+    public ResponseEntity<List<SpecParam>> selectSpecParam(@RequestParam(value = "gid",required = false)Long gid,
+                                                           @RequestParam(value = "cid",required = false)Long cid,
+                                                           @RequestParam(value="searching", required = false) Boolean searching){
+        return ResponseEntity.ok(specParamsService.selectSpecParams(gid,cid,searching));
     }
 
 
     /**
+     *
      * 新增规格参数
      * @param specParam
      * @return

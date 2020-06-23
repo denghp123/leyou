@@ -116,7 +116,7 @@
               <template slot="expand" slot-scope="props">
                 <v-card class="elevation-2 flex xs11 mx-auto my-2">
                   <!--图片上传组件-->
-                  <v-upload v-model="props.item.images" url="/upload/image"/>
+                  <v-upload v-model="props.item.images" url="/file/upload/image"/>
                 </v-card>
               </template>
             </v-data-table>
@@ -278,7 +278,7 @@ export default {
         if (val && val.length > 0) {
           // 根据分类查询品牌
           this.$http
-            .get("/item/brand/cid/" + this.goods.categories[2].id)
+            .get("/item/brands/cid/" + this.goods.categories[2].id)
             .then(({ data }) => {
               this.brandOptions = data;
             });

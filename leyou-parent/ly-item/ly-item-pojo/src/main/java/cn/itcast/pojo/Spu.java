@@ -1,10 +1,12 @@
 package cn.itcast.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import tk.mybatis.mapper.annotation.KeySql;
 
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import java.util.Date;
 
 @Table(name = "tb_spu")
@@ -20,7 +22,15 @@ public class Spu {
     private String title;// 标题
     private String subTitle;// 子标题
     private Boolean saleable;// 是否上架
+    @JsonIgnore
     private Boolean valid;// 是否有效，逻辑删除用
+    @JsonIgnore
     private Date createTime;// 创建时间
+    @JsonIgnore
     private Date lastUpdateTime;// 最后修改时间
+
+    @Transient
+    private String cname;
+    @Transient
+    private String bname;
 }

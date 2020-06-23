@@ -28,17 +28,13 @@
       </v-flex>
     </v-toolbar>
     <v-divider/>
-    
-
-     <v-data-table
-        :headers="headers"
-        :items="goodsList"
-        :options.sync="options"
-        :server-items-length="totalGoods"
-        :loading="loading"
-        class="elevation-1"
-      ></v-data-table>
-
+    <v-data-table
+      :headers="headers"
+      :items="goodsList"
+      :total-items="totalGoods"
+      :loading="loading"
+      class="elevation-1"
+    >
       <template slot="items" slot-scope="props">
         <td class="text-xs-center">{{ props.item.id }}</td>
         <td class="text-xs-center">{{ props.item.title }}</td>
@@ -108,7 +104,7 @@
         totalGoods: 0, // 总条数
         goodsList: [], // 当前页品牌数据
         loading: true, // 是否在加载中
-       options: {},
+       
         headers: [
           {text: 'id', align: 'center', sortable: false, value: 'id'},
           {text: '标题', align: 'center', sortable: false, value: 'title'},
@@ -146,10 +142,10 @@
         // 发起请求
         this.$http.get("/item/spu/page", {
           params: {
-            key: this.filter.search, // 搜索条件
-            saleable: this.filter.saleable === 0 ? null : this.filter.saleable, // 上下架
-            page: this.pagination.page,// 当前页
-            rows: this.pagination.rowsPerPage,// 每页大小
+            // key: this.filter.search, // 搜索条件
+            // saleable: this.filter.saleable === 0 ? null : this.filter.saleable, // 上下架
+            // page: this.pagination.page,// 当前页
+            // rows: this.pagination.rowsPerPage,// 每页大小
           }
         }).then(resp => { // 这里使用箭头函数
           this.goodsList = resp.data.items;

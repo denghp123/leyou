@@ -158,4 +158,19 @@ public class BrandService {
 
 
     }
+
+    /**
+     * 根据商品分类id查询该分类下的所有品牌信息
+     * @param cid
+     * @return
+     */
+    public List<Brand> queryBrandByCid(Long cid) {
+
+        List<Brand>brands = brandMapper.queryBrandByCid(cid);
+        if (CollectionUtils.isEmpty(brands)){
+            throw   new LyException(ExceptionEnum.BRANDS_NOT_FOUND);
+        }
+         return brands;
+
+    }
 }
