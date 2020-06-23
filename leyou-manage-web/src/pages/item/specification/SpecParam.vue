@@ -152,8 +152,8 @@ export default {
       this.isEdit = false;
     },
     deleteParam(id) {
-        this.$message.confirm("确认要删除该参数吗？")
-        .then(() => {
+        // this.$message.confirm("确认要删除该参数吗？")
+        // .then(() => {
             this.$http.delete("/item/spec/param/" + id)
             .then(() => {
                 this.$message.success("删除成功");
@@ -162,7 +162,7 @@ export default {
             .catch(() => {
                 this.$message.error("删除失败");
             })
-        })
+        // })
     },
     formatBoolean(boo) {
       return boo ? "是" : "否";

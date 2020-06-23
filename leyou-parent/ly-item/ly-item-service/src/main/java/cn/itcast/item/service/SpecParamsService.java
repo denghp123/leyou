@@ -55,7 +55,7 @@ public class SpecParamsService {
 
 
 
-
+    @Transactional
     public void  updateSpecParam(SpecParam specParam){
         if (StringUtils.isEmpty(specParam.getName())){
             throw new LyException(ExceptionEnum.UPDATE_SPEC_PARAMS);
@@ -67,11 +67,18 @@ public class SpecParamsService {
             throw new LyException(ExceptionEnum.UPDATE_SPEC_PARAMS);
         }
     }
-
+    @Transactional
     public void deleteSpecParam(Long id) {
         int count = specParamsMapper.deleteByPrimaryKey(id);
         if (count !=1){
             throw new LyException(ExceptionEnum.DELETE_SPEC_PARAMS);
         }
+    }
+
+    @Transactional
+    public Integer removeSpecParamByGroupId(Long id) {
+        SpecParam specParam = new SpecParam();
+        specParam.setGroupId(id);
+        return specParamsMapper.delete(specParam);
     }
 }

@@ -24,6 +24,10 @@ public class SpecGroupService {
     @Autowired
     private SpecGroupMapper specGroupMapper;
 
+
+    @Autowired
+    private SpecParamsService specParamsService;
+
     public List<SpecGroup> selectSpecGroupById(Long id){
         SpecGroup specGroup = new SpecGroup();
         specGroup.setCid(id);
@@ -80,5 +84,12 @@ public class SpecGroupService {
         if (count != 1){
             throw new LyException(ExceptionEnum.DELETE_SPEC_GROUP);
         }
+
+        //根据组id删除对应规格参数
+        Integer num = specParamsService.removeSpecParamByGroupId(id);
+        if (num ==0){
+            throw new LyException(ExceptionEnum.DELETE_SPEC_GROUP);
+        }
+
     }
 }

@@ -104,17 +104,18 @@ export default {
             });
       },
       deleteGroup(id){
-          this.$message.confirm("确认要删除分组吗？")
-          .then(() => {
+        //   this.$message.confirm("确认要删除分组吗？")
+        //   .then(() => {
             this.$http.delete("/item/spec/group/" + id)
                 .then(() => {
                     this.$message.success("删除成功");
                     this.loadData();
                 })
-          })
-          .catch(() => {
+                .catch(() => {
               this.$message.error("删除失败！");
             });
+        //   })
+          
       },
       selectGroup(group){
           this.$emit("select", group);

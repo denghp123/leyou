@@ -104,4 +104,13 @@ public class GoodsService {
 
 
     }
+
+
+    /**
+     * 商品新增
+     * @param spu
+     */
+    public void addGoods(Spu spu) {
+
+    }
 }

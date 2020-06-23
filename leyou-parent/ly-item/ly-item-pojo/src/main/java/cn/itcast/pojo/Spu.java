@@ -33,4 +33,10 @@ public class Spu {
     private String cname;
     @Transient
     private String bname;
+
+    @Transient
+    private Sku skus;
+
+    @Transient
+    private SpuDetail spuDetail;
 }

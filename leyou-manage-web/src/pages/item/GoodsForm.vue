@@ -54,7 +54,7 @@
       </v-stepper-content>
       <!--2、商品描述-->
       <v-stepper-content step="2">
-        <v-editor v-model="goods.spuDetail.description" upload-url="/upload/image"/>
+        <v-editor v-model="goods.spuDetail.description" upload-url="/file/upload/image"/>
       </v-stepper-content>
       <!--3、规格参数-->
       <v-stepper-content step="3">
@@ -218,7 +218,7 @@ export default {
 
       this.$http({
         method: this.isEdit ? "put" : "post",
-        url: "/item/goods",
+        url: "/item/spu/goods",
         data: goodsParams
       })
         .then(() => {

@@ -4,11 +4,9 @@ import cn.itcast.common.vo.PageResult;
 import cn.itcast.item.service.GoodsService;
 import cn.itcast.pojo.Spu;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Author dhp
@@ -44,6 +42,18 @@ public class GoodsController {
 
 
         return ResponseEntity.ok(goodsService.querySpuForPage(page,rows,saleable,key));
+    }
+
+
+    /**
+     * 新增商品
+     * @param spu
+     * @return
+     */
+    @RequestMapping("/goods")
+    public ResponseEntity<Void> addGoods(@RequestBody Spu spu){
+    goodsService.addGoods(spu);
+    return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
 
