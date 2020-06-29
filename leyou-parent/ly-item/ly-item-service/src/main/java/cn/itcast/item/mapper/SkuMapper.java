@@ -1,12 +1,12 @@
 package cn.itcast.item.mapper;
 
 import cn.itcast.common.mapper.BaseMapper;
-import cn.itcast.pojo.Spu;
+import cn.itcast.pojo.Sku;
 
 /**
  * @Author dhp
- * @Date 2020/6/22 9:54
+ * @Date 2020/6/24 10:28
  * @Version 1.0
  */
-public interface SpuMapper extends BaseMapper<Spu> {
+public interface SkuMapper extends BaseMapper<Sku> {
 }

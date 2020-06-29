@@ -2,11 +2,15 @@ package cn.itcast.item.web;
 
 import cn.itcast.common.vo.PageResult;
 import cn.itcast.item.service.GoodsService;
+import cn.itcast.pojo.Sku;
 import cn.itcast.pojo.Spu;
+import cn.itcast.pojo.SpuDetail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @Author dhp
@@ -50,11 +54,45 @@ public class GoodsController {
      * @param spu
      * @return
      */
-    @RequestMapping("/goods")
+    @PostMapping("/goods")
     public ResponseEntity<Void> addGoods(@RequestBody Spu spu){
     goodsService.addGoods(spu);
     return ResponseEntity.status(HttpStatus.CREATED).build();
     }
+
+
+    /**
+     * 编辑 商品spu详情  回显
+     * @param id
+     * @return
+     */
+    @GetMapping("/detail/{id}")
+    public ResponseEntity<SpuDetail> querySpuDetailById(@PathVariable("id") Long id) {
+        return ResponseEntity.ok(goodsService.queryDetailById(id));
+    }
+
+    /**
+     * 编辑 商品sku信息 回显
+     * @param id
+     * @return
+     */
+    @GetMapping("/skuList")
+    public ResponseEntity<List<Sku>> querySkuBySpuId(@RequestParam("id") Long id) {
+        return ResponseEntity.ok(this.goodsService.querySkuListBySpuId(id));
+    }
+
+
+    /**
+     * 编辑修改商品信息
+     * @param spu
+     * @return
+     */
+    @PutMapping("/goods")
+    public ResponseEntity<Void> editGoods(@RequestBody Spu spu){
+        goodsService.editGoods(spu);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
+
 
 
 
