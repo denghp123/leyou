@@ -132,7 +132,9 @@
     this.$http.get("/item/brands/delete/" + oldBrand.id)
     .then(function (response) {
       
-     
+     this.$nextTick(function(){
+           getDataFromServer();
+         })
     console.log(response);
    })
   .catch(function (error) {

@@ -7,8 +7,10 @@ import cn.itcast.item.mapper.*;
 import cn.itcast.pojo.*;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
@@ -23,6 +25,7 @@ import java.util.stream.Collectors;
  */
 
 @Service
+@Slf4j
 public class GoodsService {
 
     @Autowired
@@ -207,7 +210,108 @@ public class GoodsService {
      * 编辑修改商品详情
      * @param spu
      */
-    public void editGoods(Spu spu) {
 
+    public void editGoods(Spu spu) {
+        int count;
+        deleteSkuAndStock(spu);
+        //修改spu
+        spu.setValid(null); // 不需要修改的字段，一定强制设置为null
+        spu.setSaleable(null);
+        spu.setCreateTime(null);
+        spu.setLastUpdateTime(new Date());
+        count = spuMapper.updateByPrimaryKeySelective(spu);
+        if (count != 1){
+            throw new LyException(ExceptionEnum.GOODS_UPDATE_ERROR);
+        }
+
+
+        //修改spuDetail
+        SpuDetail spuDetail = spu.getSpuDetail();
+         count = spuDetailMapper.updateByPrimaryKeySelective(spuDetail);
+         if (count != 1){
+             throw new LyException(ExceptionEnum.GOODS_UPDATE_ERROR);
+         }
+
+        //新增sku和stock
+        saveSkuAndStock(spu);
+         log.info("【商品服务】商品修改成功",spu.getId());
+    }
+
+    private void deleteSkuAndStock(Spu spu) {
+        int count;//删除sku和stock库存信息
+        Long id = spu.getId();
+        if (id == null){
+            throw new LyException(ExceptionEnum.GOODS_UPDATE_ERROR);
+        }
+        Sku sku = new Sku();
+        sku.setSpuId(id);
+        //查询sku相关信息，获取sku的id，为删除库存信息做准备
+        List<Sku> skus = skuMapper.select(sku);
+        if (!CollectionUtils.isEmpty(skus)){
+            //删除sku
+            count = skuMapper.delete(sku);
+            if (count != skus.size()){
+                throw new LyException(ExceptionEnum.GOODS_UPDATE_ERROR);
+            }
+            //1.0删除库存信息
+            //1.1.0 获取sku的id
+            List<Long> ids = skus.stream().map(Sku::getId).collect(Collectors.toList());
+            //1.1.1 批量删除库存信息
+            int num = stockMapper.deleteByIdList(ids);
+            if (num != skus.size()){
+                throw new LyException(ExceptionEnum.GOODS_UPDATE_ERROR);
+            }
+        }
+    }
+
+    /**
+     * 根据spuid删除商品信息
+     * @param spuId
+     */
+    @Transactional
+    public void deleteGoodsBySpuId(Long spuId) {
+        //删除spu
+        int count = spuMapper.deleteByPrimaryKey(spuId);
+
+        if (count != 1){
+            throw new LyException(ExceptionEnum.GOODS_DELETE_ERROR);
+        }
+        //删除spudetail
+        SpuDetail spuDetail = new SpuDetail();
+        spuDetail.setSpuId(spuId);
+        int delete = spuDetailMapper.delete(spuDetail);
+        if (delete != 1){
+            throw new LyException(ExceptionEnum.GOODS_DELETE_ERROR);
+        }
+        //删除sku
+        //删除库存信息
+        Spu spu = new Spu();
+        spu.setId(spuId);
+        deleteSkuAndStock(spu);
+        log.info("【商品微服务】商品删除成功！",spuId);
+
+
+
+
+    }
+
+    public void updateGoodsBySpuId(Long spuId) {
+        Spu spu = new Spu();
+        spu.setId(spuId);
+        spu.setSaleable(false);
+        int count = spuMapper.updateByPrimaryKeySelective(spu);
+        if (count != 1){
+            throw new LyException(ExceptionEnum.GOODS_SALEABLE_ERROR);
+        }
+    }
+
+    public void updateAddGoodsBySpuId(Long spuId) {
+        Spu spu = new Spu();
+        spu.setId(spuId);
+        spu.setSaleable(true);
+        int count = spuMapper.updateByPrimaryKeySelective(spu);
+        if (count != 1){
+            throw new LyException(ExceptionEnum.GOODS_SALEABLE_ERROR);
+        }
     }
 }

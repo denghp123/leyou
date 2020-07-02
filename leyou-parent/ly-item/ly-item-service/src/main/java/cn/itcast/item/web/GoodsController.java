@@ -90,9 +90,45 @@ public class GoodsController {
     @PutMapping("/goods")
     public ResponseEntity<Void> editGoods(@RequestBody Spu spu){
         goodsService.editGoods(spu);
-        return ResponseEntity.status(HttpStatus.CREATED).build();
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
 
+    /**
+     * 删除我的商品
+     * @param spuId
+     * @return
+     */
+    @DeleteMapping("/delete/{spuId}")
+    public ResponseEntity<Void>  deleteGoodsBySpuId(@PathVariable("spuId")Long spuId){
+        goodsService.deleteGoodsBySpuId(spuId);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+
+
+    }
+
+    /**
+     * 下架
+     * @param spuId
+     * @return
+     */
+    @PostMapping("/soldout/{spuId}")
+    public ResponseEntity<Void>  updateGoodsBySpuId(@PathVariable("spuId")Long spuId){
+        goodsService.updateGoodsBySpuId(spuId);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+
+    }
+
+    /**
+     * 上架
+     * @param spuId
+     * @return
+     */
+    @PostMapping("/putaway/{spuId}")
+    public ResponseEntity<Void>  updateAddGoodsBySpuId(@PathVariable("spuId")Long spuId){
+        goodsService.updateAddGoodsBySpuId(spuId);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+
+    }
 
 
 
