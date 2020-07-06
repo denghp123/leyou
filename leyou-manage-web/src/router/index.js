@@ -24,10 +24,10 @@ export default new Router({
       children:[ // 其它所有组件都是 Layout的子组件
         route("/index/dashboard","/Dashboard","Dashboard"),
         route("/item/category",'/item/Category',"Category"),
-        route("/item/brand",'/item/Brand',"Brand"),
+        // route("/item/brand",'/item/Brand',"Brand"),
         //三个参数含义 url地址  页面路径 页面名称
         route("/item/myBrand",'/item/MyBrand',"MyBrand"),
-        route("/item/list",'/item/Goods',"Goods"),
+        // route("/item/list",'/item/Goods',"Goods"),
         route("/item/Mylist",'/item/MyGoods',"MyGoods"),
         route("/item/specification",'/item/specification/Specification',"Specification"),
         route("/user/statistics",'/item/Statistics',"Statistics"),
