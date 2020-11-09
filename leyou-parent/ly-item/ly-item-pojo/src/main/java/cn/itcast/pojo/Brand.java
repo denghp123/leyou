@@ -13,7 +13,7 @@ import javax.persistence.Table;
  */
 @Data
 @Table(name = "tb_brand")
-public class Brand {
+public class  Brand {
 
     @Id
     @KeySql(useGeneratedKeys = true)

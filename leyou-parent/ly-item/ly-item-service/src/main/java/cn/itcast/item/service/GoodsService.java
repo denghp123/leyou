@@ -1,6 +1,6 @@
 package cn.itcast.item.service;
 
-import cn.itcast.common.enums.ExceptionEnum;
+import  cn.itcast.common.enums.ExceptionEnum;
 import cn.itcast.common.exceptions.LyException;
 import cn.itcast.common.vo.PageResult;
 import cn.itcast.item.mapper.*;
@@ -91,6 +91,9 @@ public class GoodsService {
         for (Spu spu : spus) {
             //处理品牌名称
             Brand brand = brandMapper.selectByPrimaryKey(spu.getBrandId());
+            if (brand==null){
+               continue;
+            }
             spu.setBname(brand.getName());
 
             //处理商品分类名称

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/es-demo/es-demo.iml" filepath="$PROJECT_DIR$/es-demo/es-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/fastDFS-demo/fastDFS-demo.iml" filepath="$PROJECT_DIR$/leyou-parent/fastDFS-demo/fastDFS-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/file-upload/file-upload.iml" filepath="$PROJECT_DIR$/leyou-parent/file-upload/file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/leyou.iml" filepath="$PROJECT_DIR$/.idea/leyou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/leyou-parent.iml" filepath="$PROJECT_DIR$/leyou-parent/leyou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/ly-common/ly-common.iml" filepath="$PROJECT_DIR$/leyou-parent/ly-common/ly-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/ly-gateway/ly-gateway.iml" filepath="$PROJECT_DIR$/leyou-parent/ly-gateway/ly-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/ly-item/ly-item.iml" filepath="$PROJECT_DIR$/leyou-parent/ly-item/ly-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/ly-item/ly-item-interfice/ly-item-interfice.iml" filepath="$PROJECT_DIR$/leyou-parent/ly-item/ly-item-interfice/ly-item-interfice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/ly-item/ly-item-pojo/ly-item-pojo.iml" filepath="$PROJECT_DIR$/leyou-parent/ly-item/ly-item-pojo/ly-item-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/ly-item/ly-item-service/ly-item-service.iml" filepath="$PROJECT_DIR$/leyou-parent/ly-item/ly-item-service/ly-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/ly-registry/ly-registry.iml" filepath="$PROJECT_DIR$/leyou-parent/ly-registry/ly-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-parent/ly-search/ly-search.iml" filepath="$PROJECT_DIR$/leyou-parent/ly-search/ly-search.iml" />
+    </modules>
+  </component>
+</project>

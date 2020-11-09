@@ -7,6 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="es-demo" />
+        <module name="esdemo" />
         <module name="fastDFS-demo" />
         <module name="file-upload" />
         <module name="ly-common" />
@@ -16,9 +18,15 @@
         <module name="ly-registry" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="es-demo" target="1.8" />
+      <module name="esdemo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="es-demo" options="-parameters" />
+      <module name="esdemo" options="-parameters" />
       <module name="fastDFS-demo" options="-parameters" />
       <module name="file-upload" options="-parameters" />
       <module name="ly-common" options="-parameters" />

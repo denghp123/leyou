@@ -44,4 +44,16 @@ public class CategoryController {
         return ResponseEntity.ok(categoryService.selectCategoryByPid(pid));
     }
 
+
+    /**
+     * 根据商品分类的id获取商品分类
+     * @param ids
+     * @return
+     */
+
+    @GetMapping("/list/ids")
+    public ResponseEntity<List<Category>> queryByIds(@RequestParam("ids")List<Long> ids){
+        return ResponseEntity.ok(categoryService.queryByIds(ids));
+    }
+
 }

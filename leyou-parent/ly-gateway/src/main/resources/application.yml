@@ -13,6 +13,7 @@ zuul:
   routes:
     item-service: /item/** # 将商品微服务映射到/item/**
     upload-service: /file/** # 将商品微服务映射到/item/**
+    search-service: /search/**
 
   max:
     host:
@@ -36,6 +37,7 @@ ly:
   cors:
     allowedOrigins:
       - http://manage.leyou.com
+      - http://www.leyou.com
     allowCredentials: true
     allowedMethods:
       - GET

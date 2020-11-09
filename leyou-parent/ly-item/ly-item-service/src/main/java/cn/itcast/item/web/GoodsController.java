@@ -20,7 +20,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/spu")
-public class GoodsController {
+public class  GoodsController {
 
     @Autowired
     private GoodsService goodsService;
