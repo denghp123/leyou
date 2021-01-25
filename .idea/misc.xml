@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/leyou-parent/pom.xml" />
         <option value="$PROJECT_DIR$/es-demo/pom.xml" />
         <option value="$PROJECT_DIR$/leyou-parent/ly-search/pom.xml" />
+        <option value="$PROJECT_DIR$/itcast-rabbitmq/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -35,7 +35,7 @@ public enum  ExceptionEnum {
     UPDATE_SPEC_GROUP(400,"商品规格分组参数有误，编辑失败！"),
     DELETE_SPEC_GROUP(500,"服务器内部错误，删除失败！"),
     DELETE_SPEC_PARAMS(500,"服务器内部错误，删除失败！"),
-   BRANDS_INSERT_ERROR(400,"品牌参数有误，新增失败！"),;
+   BRANDS_INSERT_ERROR(400,"品牌参数有误，新增失败！");
 
 
 

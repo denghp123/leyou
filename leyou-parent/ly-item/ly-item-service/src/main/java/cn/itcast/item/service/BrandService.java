@@ -189,4 +189,16 @@ public class BrandService {
         return brand;
 
     }
+
+    public List<Brand> queryBrandByIds(List<Long> ids) {
+
+
+        List<Brand> brands = brandMapper.selectByIdList(ids);
+        if (CollectionUtils.isEmpty(brands)){
+            throw   new LyException(ExceptionEnum.BRANDS_NOT_FOUND);
+        }
+        return brands;
+
+    }
+    
 }

@@ -4,6 +4,7 @@ import cn.itcast.common.enums.ExceptionEnum;
 import cn.itcast.common.exceptions.LyException;
 import cn.itcast.item.mapper.SpecGroupMapper;
 import cn.itcast.pojo.SpecGroup;
+import cn.itcast.pojo.SpecParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -12,6 +13,7 @@ import org.springframework.util.StringUtils;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * @Author dhp
@@ -91,5 +93,24 @@ public class SpecGroupService {
             throw new LyException(ExceptionEnum.DELETE_SPEC_GROUP);
         }
 
+    }
+
+    public List<SpecGroup> querySpecGroupByCid(Long cid) {
+
+        //查询规格组
+        List<SpecGroup> specGroups = selectSpecGroupById(cid);
+
+
+        //查询当前分类下的所有参数
+        List<SpecParam> specParams = specParamsService.selectSpecParams(null, cid, null);
+
+
+        Map<Long, List<SpecParam>> map = specParams.stream().collect(Collectors.groupingBy(SpecParam::getGroupId));
+        //把规格参数分组保存到specGroup中
+        for (SpecGroup specGroup : specGroups) {
+         specGroup.setParams(map.get(specGroup.getId()));
+        }
+
+       return specGroups;
     }
 }

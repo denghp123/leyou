@@ -15,6 +15,7 @@ zuul:
     upload-service: /file/** # 将商品微服务映射到/item/**
     search-service: /search/**
 
+
   max:
     host:
       connections: 500

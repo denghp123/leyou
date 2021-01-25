@@ -12,7 +12,7 @@ import org.springframework.web.filter.CorsFilter;
  * @Version 1.0
  */
 @Configuration
-public class GloblCrosConfig {
+public class  GloblCrosConfig {
 
 //    @Bean
 //    public CorsFilter corsFilter(){
@@ -51,9 +51,9 @@ public class GloblCrosConfig {
         config.setAllowCredentials(prop.getAllowCredentials());
         //3) 允许的请求方式
         prop.getAllowedMethods().forEach(config::addAllowedMethod);
-        // 4）允许的头信息
+        //4）允许的头信息
         prop.getAllowedHeaders().forEach(config::addAllowedHeader);
-        // 5） 允许的时间
+        //5） 允许的时间
         config.setMaxAge(prop.getMaxAge());
 
         //2.添加映射路径，我们拦截一切请求

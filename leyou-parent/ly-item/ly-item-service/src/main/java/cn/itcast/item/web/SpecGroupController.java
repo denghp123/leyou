@@ -70,4 +70,15 @@ public class SpecGroupController {
     }
 
 
+    /**
+     * 根据cid查询规格组以及组内参数
+     * @param cid
+     * @return
+     */
+    @GetMapping("/list/{cid}")
+    public ResponseEntity<List<SpecGroup> >querySpecGroupByCid(@PathVariable("cid")Long cid){
+        return ResponseEntity.ok(specGroupService.querySpecGroupByCid(cid));
+    }
+
+
 }

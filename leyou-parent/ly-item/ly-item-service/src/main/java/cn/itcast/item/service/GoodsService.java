@@ -8,6 +8,8 @@ import cn.itcast.pojo.*;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -47,6 +49,10 @@ public class GoodsService {
 
     @Autowired
     private StockMapper stockMapper;
+
+
+    @Autowired
+    private AmqpTemplate amqpTemplate;
 
     public PageResult<Spu> querySpuForPage(Integer page, Integer rows, Boolean saleable, String key) {
         //分页
@@ -134,6 +140,8 @@ public class GoodsService {
         spuDetailMapper.insertSelective(spuDetail);
 
         saveSkuAndStock(spu);
+
+        this.sendMessage(spu.getId(),"insert");
 
 
     }
@@ -238,6 +246,8 @@ public class GoodsService {
         //新增sku和stock
         saveSkuAndStock(spu);
          log.info("【商品服务】商品修改成功",spu.getId());
+
+        sendMessage(spu.getId(),"insert");
     }
 
     private void deleteSkuAndStock(Spu spu) {
@@ -306,7 +316,20 @@ public class GoodsService {
         if (count != 1){
             throw new LyException(ExceptionEnum.GOODS_SALEABLE_ERROR);
         }
+
+        sendMessage(spuId,"delete");
     }
+
+    private void sendMessage(Long spuId,String type) {
+        try {
+            //商品下架發送消息
+            this.amqpTemplate.convertAndSend("item."+type, spuId);
+        } catch (AmqpException e) {
+            log.info("【商品微服务】發送消息失敗："+type,spuId);
+            e.printStackTrace();
+        }
+    }
+
 
     public void updateAddGoodsBySpuId(Long spuId) {
         Spu spu = new Spu();
@@ -316,5 +339,24 @@ public class GoodsService {
         if (count != 1){
             throw new LyException(ExceptionEnum.GOODS_SALEABLE_ERROR);
         }
+
+
+        //商品上架發送消息
+        sendMessage(spuId,"insert");
+    }
+
+    public Spu querySpuBySpuId(Long spuId) {
+        Spu spu = spuMapper.selectByPrimaryKey(spuId);
+
+        if (spu == null) {
+            throw new LyException(ExceptionEnum.GOODS_NOT_FOUND);
+        }
+        //  查询spuDetail
+
+        spu.setSpuDetail(queryDetailById(spuId));
+        // 查询skus
+        spu.setSkus(querySkuListBySpuId(spuId));
+
+        return spu;
     }
 }
